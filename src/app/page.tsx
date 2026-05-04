@@ -296,17 +296,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div className="space-y-5 text-zinc-400 leading-relaxed">
               <p>
-                Senior Full-Stack Engineer with deep experience in the Solana
-                ecosystem. Currently serving as CTO at Longwood Labs, where I
-                lead the development of DeFi Dungeons — a fully on-chain game
-                with NFT-based mechanics and 10,000+ unique assets.
+                Senior Full-Stack Engineer with strong expertise in building
+                scalable, high-performance web applications using React,
+                Next.js, TypeScript and Nest.js. Proven track record in
+                architecting end-to-end systems, optimizing frontend performance
+                and delivering data-intensive applications.
               </p>
               <p>
-                I specialize in the full stack: from Solana program integration
-                with Metaplex, to React/Next.js frontends optimized for
-                high-throughput NFT data, to NestJS backends handling complex
-                game state. I architect systems that balance on-chain security
-                with off-chain performance.
+                Experienced in leading development teams, designing system
+                architecture and managing full product lifecycles, from backend
+                services and database design to frontend UX and deployment.
               </p>
             </div>
 
