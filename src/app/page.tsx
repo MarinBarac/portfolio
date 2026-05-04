@@ -40,6 +40,32 @@ const projects = [
       "Social tipping platform integrated with the Farcaster protocol on Base chain. Enables content creators to receive cryptocurrency tips across casts and threads, with over 1 million wallet holders.",
     tags: ["Next.js", "TypeScript", "GSAP"],
   },
+  {
+    num: "04",
+    role: "Frontend",
+    roleStyle: "text-amber-400 border-amber-400/30",
+    period: "",
+    title: "IronNode",
+    titleHover: "group-hover:text-amber-300",
+    href: "https://www.ironnode.io/",
+    image: "/assets/projects/ironnode.webp",
+    description:
+      "Landing page for a Web3 security and auditing company specializing in Rust and EVM smart contract code review and penetration testing.",
+    tags: ["Next.js", "TypeScript", "React"],
+  },
+  {
+    num: "05",
+    role: "Frontend",
+    roleStyle: "text-cyan-400 border-cyan-400/30",
+    period: "",
+    title: "Afel",
+    titleHover: "group-hover:text-cyan-300",
+    href: "https://x.com/afelxyz",
+    image: "/assets/projects/afel.webp",
+    description:
+      "Solana ecosystem project with NFT and utility token. Built a landing page with a points leaderboard system allowing users to register and earn airdrop allocations through community interaction and web3 activity.",
+    tags: ["Solana", "Next.js", "TypeScript", "React"],
+  },
 ];
 
 const skills = [
@@ -55,13 +81,7 @@ const skills = [
   },
   {
     category: "Frontend",
-    items: [
-      "React.js",
-      "Next.js",
-      "TypeScript",
-      "GSAP",
-      "Performance Optimization",
-    ],
+    items: ["React.js", "Next.js", "TypeScript", "GSAP"],
   },
   {
     category: "Backend",
@@ -113,9 +133,20 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
             {/* Left */}
             <div className="lg:col-span-3">
-              <p className="font-mono text-xs text-[#d93b25] tracking-widest uppercase mb-8">
-                Senior Full-Stack Engineer
-              </p>
+              <div className="flex items-center gap-4 mb-8">
+                <p className="font-mono text-xs text-[#d93b25] tracking-widest uppercase">
+                  Senior Full-Stack Engineer
+                </p>
+                <span className="text-zinc-700 font-mono text-xs">·</span>
+                <a
+                  href="https://solbound.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-mono text-xs text-zinc-500 hover:text-[#d93b25] transition-colors tracking-widest uppercase"
+                >
+                  Solbound ↗
+                </a>
+              </div>
               <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8">
                 MARIN
                 <br />
@@ -123,8 +154,7 @@ export default function Home() {
               </h1>
               <p className="text-lg text-zinc-400 leading-relaxed mb-10 max-w-lg">
                 Specializing in blockchain-based gaming systems and scalable web
-                applications on Solana. CTO at Longwood Labs, building at the
-                intersection of DeFi and interactive experiences.
+                applications on Solana.
               </p>
               <div className="flex flex-wrap items-center gap-6">
                 <a
